@@ -112,7 +112,8 @@ const UpdateProject = () => {
                   Update Project
                 </h2>
                 <Link to={"/"}>
-                <Button>Return to Dashboard</Button></Link>
+                  <Button>Return to Dashboard</Button>
+                </Link>
               </div>
               <div className="mt-10 flex flex-col gap-5">
                 <div className="w-full sm:col-span-4">

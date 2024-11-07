@@ -68,7 +68,7 @@ const softwareApplicationSlice = createSlice({
   },
 });
 
-export const getAllSoftwareApplications = () => async (dispatch) => { 
+export const getAllSoftwareApplications = () => async (dispatch) => {
   dispatch(
     softwareApplicationSlice.actions.getAllSoftwareApplicationRequests()
   );

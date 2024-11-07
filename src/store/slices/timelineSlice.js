@@ -78,7 +78,7 @@ export const getAllTimelines = () => async (dispatch) => {
     dispatch(timelineSlice.actions.clearAllErrors());
   } catch (error) {
     dispatch(
-      timelineSlice.actions.getAllMessagesFailed(error.response.data.message)
+      timelineSlice.actions.getAllTimelineFailed(error.response.data.message)
     );
   }
 };
